@@ -142,7 +142,7 @@ def send_user_info(name, phone_number, user_state, conversation_summary, company
     """
 
     # List of recipient email addresses
-    recipients = ["juan@bizbridge.ai", "juancardona0607@gmail.com"]  # Add all desired email addresses here
+    recipients = ["dpierce@founderslegal.com", "juancardona0607@gmail.com"]  # Add all desired email addresses here
     
     msg = MIMEText(email_content)
     msg['Subject'] = f"New Startup Legal Consultation Request: {name} - {company_name}"
